@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +38,10 @@ ul li:not(:last-child) {
 .content_wrapper {
     padding-top: 100px;
     padding-bottom: 168px;
+    
+}
+.avatar {
+    width: 100%;
 }
 
 .content_avatar {
@@ -213,6 +218,10 @@ margin-bottom: 20px;
    
    
 }
+ .content3_wrapper img {
+width: 100%;
+ }
+
 .content3_wrapper-title-text {
     color: #000;
 text-align: center;
@@ -422,7 +431,7 @@ font-weight: 600px;
     padding-bottom: 85px;
 }
 
-.footer_nav a {
+.footer_nav a:not(:last-child) {
     margin-right: 50px;
     text-decoration: none;
     
