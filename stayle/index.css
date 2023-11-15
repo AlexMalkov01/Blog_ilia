@@ -37,12 +37,17 @@ ul li:not(:last-child) {
 .content_wrapper {
     padding-top: 100px;
     padding-bottom: 168px;
+
+}
+
+.avatar {
+    width: 100%;
 }
 
 .content_avatar {
     display: inline-block;
     transition: transition-timing-function 3s, margin 2s;
-    
+
 }
 
 .content_taitle {
@@ -50,19 +55,21 @@ ul li:not(:last-child) {
     width: 590px;
     margin-left: 175px;
     text-align: center;
-    
+
 }
+
 .taitle {
     color: #000;
-    margin-bottom: 120px;    
+    margin-bottom: 120px;
 
     font-size: 62px;
     font-style: normal;
     font-weight: 500;
-  
+
 }
+
 .content_taitle-desc {
-    
+
     color: #FAFAFA;
     text-align: center;
     font-size: 36px;
@@ -73,17 +80,17 @@ ul li:not(:last-child) {
 #content {
     margin-top: 91px;
     margin-left: 68px;
-    padding-bottom:  77px; 
-    
+    padding-bottom: 77px;
+
 }
 
 .nav_li {
     margin-top: 201px;
-   margin-right: 72px;
-    text-align: right;  
+    margin-right: 72px;
+    text-align: right;
     font-weight: 400px;
     font-size: 24px;
-   
+
     color: #000;
     list-style-type: none;
 
@@ -91,22 +98,22 @@ ul li:not(:last-child) {
 
 h2 {
     color: #000;
-text-align: center;
+    text-align: center;
 
-font-size: 74px;
-font-weight: 500px;
-line-height: normal;
-padding-left: 70px;
-padding-right: 70px;
+    font-size: 74px;
+    font-weight: 500px;
+    line-height: normal;
+    padding-left: 70px;
+    padding-right: 70px;
 
- 
+
 
 }
 
- 
-.content_nav-link { 
-   color: #000;
-   text-decoration-line: underline;
+
+.content_nav-link {
+    color: #000;
+    text-decoration-line: underline;
 }
 
 #content2 {
@@ -117,27 +124,27 @@ padding-right: 70px;
 }
 
 .content2_wrapper {
-   
+
     padding-left: 106px;
     padding-top: 95px;
     margin-bottom: 64px;
-    
-    
+
+
 }
 
 .content2_wrapper-title {
     display: inline-block;
     margin-left: 60px;
-      
+
 }
 
 .content2_wrapper-title-time {
-    
-color: rgba(0, 0, 0, 0.48);
-text-align: left;
-font-family: Gentium Book Basic;
-font-size: 16px;
-font-weight: 400;
+
+    color: rgba(0, 0, 0, 0.48);
+    text-align: left;
+    font-family: Gentium Book Basic;
+    font-size: 16px;
+    font-weight: 400;
 
 
 }
@@ -146,33 +153,33 @@ font-weight: 400;
 
     color: #000;
 
-font-size: 48px;
-font-weight: 500px;
-margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 500px;
+    margin-bottom: 20px;
 
 
 }
 
 .content2_wrapper-title-text {
     color: #000;
-  
+
     font-family: Fira Sans;
     font-size: 27px;
     font-weight: 300px;
     display: inline-block;
-    
+
 }
 
 .wrapper-ava1 {
     display: inline-block;
     border-radius: 7px;
     text-align: center;
-   
+
 
 }
 
 .line1 {
-    
+
     height: 4px;
     margin-left: 110px;
     border-radius: 6px;
@@ -191,18 +198,18 @@ margin-bottom: 20px;
 .content3_title {
     display: inline-block;
     margin-left: 60px;
-    
+
     font-size: 40px;
-    
-    
+
+
 }
 
 .data {
     color: rgba(0, 0, 0, 0.48);
-        font-size: 17px;
-        font-weight: 400px;
-        font-family: Gentium Book Basic;
-          
+    font-size: 17px;
+    font-weight: 400px;
+    font-family: Gentium Book Basic;
+
 }
 
 .content3_wrapper-title-h3 {
@@ -210,15 +217,20 @@ margin-bottom: 20px;
     text-align: center;
     font-size: 47px;
     font-weight: 500px;
-   
-   
+
+
 }
+
+.content3_wrapper img {
+    width: 100%;
+}
+
 .content3_wrapper-title-text {
     color: #000;
-text-align: center;
-font-size: 26px;
-font-weight: 300px;
-padding-top: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300px;
+    padding-top: 20px;
 
 }
 
@@ -227,11 +239,12 @@ padding-top: 20px;
     text-align: right;
     list-style-type: none;
 
-   
+
 
     padding-bottom: 40px;
-    
+
 }
+
 .content3_nav {
     margin-right: 70px;
     color: #000;
@@ -241,12 +254,13 @@ padding-top: 20px;
     text-decoration-line: underline;
 
 }
+
 .content3_nav:hover {
     color: #4827b3
 }
 
 .content_nav-link:hover {
-    color: #4827b3 
+    color: #4827b3
 }
 
 .header_nav {
@@ -259,7 +273,7 @@ padding-top: 20px;
     border-radius: 12px 0px 0px 12px;
     border-color: #FAFAFA;
     animation: nav_wrapper 5s ease infinite;
-     border: 2px solid black;
+    border: 2px solid black;
 
 }
 
@@ -287,11 +301,11 @@ padding-top: 20px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     margin: 5px;
-    padding:5px;
+    padding: 5px;
     border-radius: 8px;
-    
-    
-    
+
+
+
 }
 
 .content3_nav:active {
@@ -308,16 +322,16 @@ padding-top: 20px;
 
 
 h4 {
-        
+
     color: #000;
     text-align: center;
-    
+
     font-size: 39px;
     font-style: normal;
     font-weight: 500px;
     line-height: normal;
     flex-direction: column;
- 
+
 
 }
 
@@ -333,41 +347,41 @@ h4 {
     text-align: center;
     padding-right: 283px;
     padding-bottom: 100px;
-    
-    
+
+
 }
 
 .wrapper-input {
     color: #5F5F5F;
-text-align: center;
-font-size: 24px;
-font-weight: 400;
-background-color: #5F5F5F50;
-border: #a8a3a3;
-width: 500px;
-height: 61px;
-border-style: solid;
-margin: 0px -6px;
-border-width: 1px;
-transition: all 1s;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #5F5F5F50;
+    border: #a8a3a3;
+    width: 500px;
+    height: 61px;
+    border-style: solid;
+    margin: 0px -6px;
+    border-width: 1px;
+    transition: all 1s;
 
 
 }
 
 .wrapper-button {
     padding: 15px 60px;
-margin: 0;
+    margin: 0;
 
 
-border-radius: 4px;
-background-color: #000;
-color: #FAFAFA;
-text-align: center;
-font-size: 24px;
-font-weight: 400px;
-background-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400px;
+    background-color: #000;
 
-transition: padding 2s 7ms, margin 3s ,border-radius 3s,  background-color 2s;
+    transition: padding 2s 7ms, margin 3s, border-radius 3s, background-color 2s;
 
 }
 
@@ -376,13 +390,13 @@ transition: padding 2s 7ms, margin 3s ,border-radius 3s,  background-color 2s;
     margin: -3px;
 }
 
-.wrapper-button:hover {   
+.wrapper-button:hover {
     color: #FAFAFA;
     background-color: #4827b3;
     padding: 30px 120px;
     border-radius: 20px 0px 20px 0px;
     margin: 20px 60px;
-   
+
 }
 
 .wrapper-button:active {
@@ -393,13 +407,13 @@ transition: padding 2s 7ms, margin 3s ,border-radius 3s,  background-color 2s;
 
 .wrapper-input:hover {
     border-color: red;
-    
+
 }
 
 
 #footer {
     background-color: #9D61FF;
-    
+
 }
 
 .footer_taitle {
@@ -410,9 +424,9 @@ transition: padding 2s 7ms, margin 3s ,border-radius 3s,  background-color 2s;
 
     color: #FAFAFA;
 
-font-size: 64px;
+    font-size: 64px;
 
-font-weight: 600px;
+    font-weight: 600px;
 
 }
 
@@ -422,21 +436,21 @@ font-weight: 600px;
     padding-bottom: 85px;
 }
 
-.footer_nav a {
+.footer_nav a:not(:last-child) {
     margin-right: 50px;
     text-decoration: none;
-    
+
 }
 
 .svg_youtube path:hover {
     fill: red;
     color: #FAFAFA;
-    
+
 }
 
 
 .twitter svg path:hover {
-  fill: #4a89ee;
+    fill: #4a89ee;
 }
 
 .img1 svg path:hover {
@@ -451,13 +465,13 @@ font-weight: 600px;
 
 
 .content_avatar:hover {
-    transition-timing-function: cubic-bezier(.56,.53,.36,.35)  ;
+    transition-timing-function: cubic-bezier(.56, .53, .36, .35);
     margin: 30px 30px;
 }
 
 .svg_youtube:hover {
     animation: hover 1s ease infinite;
-      
+
 }
 
 
@@ -471,12 +485,15 @@ font-weight: 600px;
     25% {
         transform: rotate(10deg)
     }
+
     50% {
         transform: rotate(0deg)
     }
+
     75% {
         transform: rotate(-10deg)
     }
+
     100% {
         transform: rotate(0deg)
     }
@@ -484,8 +501,8 @@ font-weight: 600px;
 
 .twitter svg:hover {
 
-    animation:twitter 1s ease infinite ;
-    
+    animation: twitter 1s ease infinite;
+
 }
 
 @keyframes twitter {
@@ -497,12 +514,15 @@ font-weight: 600px;
     25% {
         transform: rotate(10deg)
     }
+
     50% {
         transform: rotate(0deg)
     }
+
     75% {
         transform: rotate(-10deg)
     }
+
     100% {
         transform: rotate(0deg)
     }
@@ -525,6 +545,5 @@ font-weight: 600px;
 .prikol span {
     display: inline-block;
     transition: 3s;
-    
-}
 
+}
